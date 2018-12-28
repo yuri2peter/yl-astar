@@ -34,7 +34,7 @@ export default class Test {
     console.log('done work2');
     yield;
   }
-};
+}
 
 function isTestable(value) {
   return function decorator(target) {

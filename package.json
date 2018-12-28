@@ -5,8 +5,7 @@
   "main": "./lib/index.js",
   "scripts": {
     "start": "node index.js",
-    "eslint": "eslint ./src",
-    "build": "del-cli -f ./lib && babel src -d lib -s",
+    "build": "del-cli -f ./lib && babel src -d lib -s && eslint ./src",
     "test": "node ./lib/test/index.js"
   },
   "repository": {
