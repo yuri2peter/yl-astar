@@ -4,6 +4,8 @@
   "description": "The description of your package.",
   "main": "./lib/index.js",
   "scripts": {
+    "start": "node index.js",
+    "eslint": "eslint ./src",
     "build": "del-cli -f ./lib && babel src -d lib -s",
     "test": "node ./lib/test/index.js"
   },
@@ -31,6 +33,9 @@
     "@babel/plugin-proposal-decorators": "^7.2.3",
     "@babel/plugin-proposal-export-default": "^7.0.0-beta.32",
     "@babel/preset-env": "^7.2.3",
-    "del-cli": "^1.1.0"
+    "babel-eslint": "^8.2.6",
+    "del-cli": "^1.1.0",
+    "eslint": "^4.19.1",
+    "eslint-plugin-react": "^7.12.0"
   }
 }

@@ -39,12 +39,12 @@ export default class Test {
 function isTestable(value) {
   return function decorator(target) {
     target.isTestable = value;
-  }
+  };
 }
 
 function enumerable(value) {
   return function (target, key, descriptor) {
     descriptor.enumerable = value;
     return descriptor;
-  }
+  };
 }
