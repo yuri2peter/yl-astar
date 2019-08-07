@@ -1,7 +1,7 @@
 {
-  "name": "yl-software",
+  "name": "yl-astar",
   "version": "1.0.0",
-  "description": "The description of your package.",
+  "description": "A asynchronous A* implementation that can be used to solve various puzzles, games, or graph traversals.",
   "main": "./lib/index.js",
   "scripts": {
     "start": "node index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yuri2peter/npm-package-scaffolding.git"
+    "url": "git+https://github.com/yuri2peter/yl-astar.git"
   },
   "keywords": [
     "yuri2"
@@ -18,11 +18,12 @@
   "author": "yuri2",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yuri2peter/npm-package-scaffolding/issues"
+    "url": "https://github.com/yuri2peter/yl-astar/issues"
   },
-  "homepage": "https://github.com/yuri2peter/npm-package-scaffolding#readme",
+  "homepage": "https://github.com/yuri2peter/yl-astar#readme",
   "dependencies": {
-    "@babel/polyfill": "^7.2.5"
+    "@babel/polyfill": "^7.2.5",
+    "lodash": "^4.17.15"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
