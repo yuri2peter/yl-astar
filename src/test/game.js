@@ -76,6 +76,7 @@ class Game {
     const map = [];
     this.grid.forEach(row => {
       row.forEach(t => {
+        map.push(' ');
         if (path.includes(t.id)) {
           map.push('*');
         } else {
