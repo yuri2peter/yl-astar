@@ -19,8 +19,8 @@ const getNeighbors = async (nodeId) => {
     return [
         {
             id: id1, // node分配的id
-            singleCost, // 从当前node到该node的代价
-            predictCost,  // 该node到终点预估的代价（一般可以用地图距离估算）
+            singleCost: 10, // 从当前node到该node的代价
+            predictCost: 100,  // 该node到终点预估的代价（一般可以用地图距离估算）
         },
         { id: id2, ... }, { id: id3, ... }
     ];
