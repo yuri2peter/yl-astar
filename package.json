@@ -1,6 +1,6 @@
 {
   "name": "yl-astar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A asynchronous A* implementation that can be used to solve various puzzles, games, or graph traversals.",
   "main": "./lib/index.js",
   "scripts": {
